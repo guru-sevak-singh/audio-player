@@ -26,7 +26,7 @@ function requestNotificationPermission() {
 
 // Get Firebase Cloud Messaging Token
 function getFCMToken() {
-    messaging.getToken({ vapidKey: "YOUR_PUBLIC_VAPID_KEY" })
+    messaging.getToken({ vapidKey: "BI3YPNn0oOMKb8E-eU_HO5R792DbxoMbqCNk-ONcH1dGJTO-fdHF8nNOXG0Dm2wpWOT1XB4OxtcCunlVDyrvRxM" })
     .then(token => {
         console.log("FCM Token:", token);
         document.getElementById("token").textContent = "FCM Token: " + token;
