@@ -1,5 +1,5 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
-import { getMessaging, getToken, onMessage } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-messaging.js";
+importScripts("https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js");
+importScripts("https://www.gstatic.com/firebasejs/10.4.0/firebase-messaging.js");
 
 // Firebase Config (Same as firebase.js)
 firebase.initializeApp({
